@@ -2,10 +2,10 @@
 
 ## Phase 1: Core Setup
 - [x] Initialize repository and project structure
-- [ ] Implement Jira API client (authentication, base requests)
-- [ ] Implement Confluence API client (authentication, base requests)
-- [ ] Add configuration file for API tokens/credentials (env-based, not committed)
-- [ ] Write basic CLI entry point for running automation scripts
+- [ ] Implement Jira API client (authentication, base requests) (#1)
+- [ ] Implement Confluence API client (authentication, base requests) (#2)
+- [ ] Add configuration file for API tokens/credentials (env-based, not committed) (#4)
+- [ ] Write basic CLI entry point for running automation scripts (#3)
 
 ## Phase 2: Automation Features
 - [ ] Sync Jira issue status changes to a Confluence status page
