@@ -1,0 +1,16 @@
+{ 
+  "servers": { 
+    "echo-windows": { 
+      "command": "powershell", 
+      "args": ["-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/mcp-echo.ps1"] 
+    },
+    "time-windows": { 
+      "command": "powershell", 
+      "args": ["-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/mcp-time.ps1"] 
+    },
+    "github": { 
+      "type": "http", 
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  }  
+}  
